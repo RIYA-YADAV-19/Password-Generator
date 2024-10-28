@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+*{
+  margin: 0%;
+  padding: 0%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
+  background-color: rgb(78, 19, 19);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+ 
+
+}
+.passin{
+  background-color: rgb(228, 134, 134);
+  width: 330px;
+  padding: 20px 6px;
+  
+
+}
+.passin input[type=text]{
+  width: 230px;
+  padding: 5px 0px;
+}
+.btn1{
+  width: 60px;
+  padding: 5px 0px;
+  cursor: pointer;
+}
+.innertable{
+  padding: 10px;
+  width: 250px;
+  height: 200px;
+  
+}
+.inner input[type=checkbox]{
+  width: 15px;
+  height: 15px;
+}
+.inner input[type=number]{
+  width: 30px;
+  height: 15px;
+}
+.btn{
+  margin-left: 40px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  background-color: rgb(155, 113, 197);
+}
+.btn:active{
+  background-color: rebeccapurple;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

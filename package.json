@@ -1,4 +1,4 @@
-{
+{ "homepage": "https://RIYA-YADAV-19.github.io/Password-Generator",
   "name": "passwordapp",
   "version": "0.1.0",
   "private": true,
@@ -34,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
