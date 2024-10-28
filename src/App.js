@@ -1,4 +1,6 @@
 //import logo from './logo.svg';
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 import { useState } from 'react';
 import './App.css';
 import {UC,LC,NC,SC} from './data/List'
@@ -31,11 +33,13 @@ function App() {
 
    const copyPass=()=>{
     navigator.clipboard.writeText(fpass);
+    toast("copied!");
    }
   return (
     <div className="App">
         
       <div className = "passin">
+      <ToastContainer />
       <h2>PASSWORD GENERATOR</h2><br></br>
         <input type='text' readOnly  value={fpass}/> <button className='btn1' onClick={copyPass}>Copy</button>
         <div className='inner'>
